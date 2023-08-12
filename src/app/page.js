@@ -4,19 +4,19 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-  <div className="">  
+  <div className="AIRBNB">  
   <main>
     
       <Head>
-        <title>AIRBNB</title>
+      <title>AIRBNB</title>
         <link rel ="icon" href="/favicon.ico"/>
       </Head>
 
-         {/* Header */}
+      {/* Header */}
       <Header/>
       {/* Banner */}
     
   </main>
   </div>
   )
-}
+ }
